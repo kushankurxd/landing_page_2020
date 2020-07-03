@@ -1,11 +1,6 @@
 .page_1 {
   height: 100vh;
-  background: rgb(43, 68, 133);
-  background: radial-gradient(
-    circle at 70%,
-    rgba(116, 121, 149, 1) 0%,
-    rgba(43, 68, 133, 1) 100%
-  );
+  background: radial-gradient(circle at 70%, #bdbdbd -60%, #283593 100%);
   overflow: hidden;
 }
 
@@ -14,4 +9,41 @@
   position: fixed;
   top: -24%;
   left: 50%;
+}
+
+.page_1 .container {
+  display: flex;
+  flex-direction: row;
+}
+
+.page_1 .container .first,
+.page_1 .container .mid,
+.page_1 .container .last {
+  height: 100vh;
+  z-index: 4;
+}
+
+.page_1 .container .first .page_1 .container .last {
+  flex-grow: 1;
+}
+
+.page_1 .container .mid {
+  flex-grow: 2;
+}
+
+.page_1 .container .first {
+  width: 140px;
+  border-right: 1px solid rgba(204, 204, 204, 0.2);
+  position: relative;
+}
+
+.page_1 .container .last {
+  width: 140px;
+  border-left: 1px solid rgba(204, 204, 204, 0.2);
+  position: relative;
+}
+
+.page_1 .container .mid {
+  width: 100%;
+  position: relative;
 }
