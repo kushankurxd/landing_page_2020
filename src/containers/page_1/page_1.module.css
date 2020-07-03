@@ -1,0 +1,17 @@
+.page_1 {
+  height: 100vh;
+  background: rgb(43, 68, 133);
+  background: radial-gradient(
+    circle at 70%,
+    rgba(116, 121, 149, 1) 0%,
+    rgba(43, 68, 133, 1) 100%
+  );
+  overflow: hidden;
+}
+
+.page_1 img {
+  width: 54%;
+  position: fixed;
+  top: -24%;
+  left: 50%;
+}
