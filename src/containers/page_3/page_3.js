@@ -6,6 +6,7 @@ import pic6 from "../../img/pic6.png";
 import First from "../../components/first/first";
 import Last from "../../components/last/last";
 import Mid from "../../components/mid/mid";
+import Page_3 from "../../components/page_3/page_3";
 
 class Page3 extends React.Component {
   render() {
@@ -18,6 +19,7 @@ class Page3 extends React.Component {
           </div>
           <div className={styles.mid}>
             <Mid />
+            <Page_3 />
           </div>
           <div className={styles.last}>
             <Last />
