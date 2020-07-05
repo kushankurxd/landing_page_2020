@@ -12,7 +12,7 @@ class Page2 extends React.Component {
   render() {
     return (
       <div className={styles.page_2}>
-        <img src={pic4} alt="pic1" />
+        <img src={pic4} alt="pic4" />
         <div className={styles.container}>
           <div className={styles.first}>
             <First />

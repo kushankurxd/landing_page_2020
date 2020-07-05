@@ -17,8 +17,8 @@ const page_2 = (props) => {
       <div className={styles.last}>
         <div className={styles.last_heading}>
           <span>LID</span>
-          The information nowadays is one click away and all you have to do to
-          get it is to choose the device that suits you best.
+          The dress, which happens to intregate real circuits, detects the level
+          of CO2 concentration in air.
         </div>
         <div className={styles.last_card}>
           <div className={styles.last_card_title}>
