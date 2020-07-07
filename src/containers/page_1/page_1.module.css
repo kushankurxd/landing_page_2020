@@ -2,6 +2,16 @@
   height: 100vh;
   background: radial-gradient(circle at 70%, #bdbdbd -60%, #283593 100%);
   overflow: hidden;
+  animation: up 3s 4s cubic-bezier(0.76, 0, 0.24, 1) forwards;
+}
+
+@keyframes up {
+  from {
+    height: 100vh;
+  }
+  to {
+    height: 0vh;
+  }
 }
 
 .page_1 img {
@@ -9,6 +19,16 @@
   position: fixed;
   bottom: -44%;
   left: 50%;
+  animation: disappear 3s 4s cubic-bezier(0.76, 0, 0.24, 1) forwards;
+}
+
+@keyframes disappear {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
 
 .page_1 .container {

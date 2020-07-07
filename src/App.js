@@ -9,6 +9,8 @@ import Page3 from "./containers/page_3/page_3";
 function App() {
   return (
     <div className="App">
+      <Page1 />
+      <Page2 />
       <Page3 />
     </div>
   );

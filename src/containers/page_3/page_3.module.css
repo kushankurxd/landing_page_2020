@@ -9,6 +9,17 @@
   position: fixed;
   bottom: -44%;
   left: 50%;
+  opacity: 0;
+  animation: appear 3s 10s cubic-bezier(0.76, 0, 0.24, 1) forwards;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .page_3 .container {
