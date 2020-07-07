@@ -10,15 +10,21 @@
   bottom: -44%;
   left: 50%;
   opacity: 0;
-  animation: appear 3s 10s cubic-bezier(0.76, 0, 0.24, 1) forwards;
+  animation: appear 7s 10s cubic-bezier(0.76, 0, 0.24, 1) forwards;
+  perspective-origin: bottom;
 }
 
 @keyframes appear {
-  from {
+  0% {
     opacity: 0;
+    transform: rotateX(0deg);
   }
-  to {
+  50% {
     opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: rotateX(16deg);
   }
 }
 

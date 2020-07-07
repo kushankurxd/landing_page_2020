@@ -13,6 +13,16 @@
   display: flex;
   flex-direction: column;
   position: relative;
+  animation: motion 8s forwards;
+}
+
+@keyframes motion {
+  from {
+    bottom: 0;
+  }
+  to {
+    bottom: 40px;
+  }
 }
 
 .page_1 .first,

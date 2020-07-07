@@ -19,15 +19,20 @@
   position: fixed;
   bottom: -44%;
   left: 50%;
-  animation: disappear 3s 4s cubic-bezier(0.76, 0, 0.24, 1) forwards;
+  animation: disappear 7s cubic-bezier(0.76, 0, 0.24, 1) forwards;
+  perspective-origin: bottom;
 }
 
 @keyframes disappear {
-  from {
+  0% {
+    transform: rotateX(0deg);
+  }
+  50% {
     opacity: 1;
   }
-  to {
+  100% {
     opacity: 0;
+    transform: rotateX(20deg);
   }
 }
 

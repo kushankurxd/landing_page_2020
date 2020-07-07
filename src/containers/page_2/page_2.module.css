@@ -22,17 +22,20 @@
   transform: rotateY(180deg);
   opacity: 0;
   animation: appear 9s 4s cubic-bezier(0.76, 0, 0.24, 1) forwards;
+  perspective-origin: bottom;
 }
 
 @keyframes appear {
   0% {
     opacity: 0;
+    transform: rotateY(180deg) rotateX(0deg);
   }
   50% {
     opacity: 1;
   }
   100% {
     opacity: 0;
+    transform: rotateY(180deg) rotateX(20deg);
   }
 }
 
