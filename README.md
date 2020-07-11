@@ -1,5 +1,14 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### [Watch Live Demo](https://landing-page-xd.netlify.app/) - Warning: Images used here are 4K, may take some time to load  
+
+#### Screenshots
+![ezgif com-video-to-gif](https://user-images.githubusercontent.com/37204706/87235344-d620c900-c3f8-11ea-89b7-304f6c950b7a.gif)
+![screely-1594509151896](https://user-images.githubusercontent.com/37204706/87235510-4ed45500-c3fa-11ea-9cb4-527db2c66575.png)
+![screely-1594509175938](https://user-images.githubusercontent.com/37204706/87235512-509e1880-c3fa-11ea-93ba-7f840901437b.png)
+![screely-1594509222291](https://user-images.githubusercontent.com/37204706/87235513-51cf4580-c3fa-11ea-9fe9-2e6d8e820759.png)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
