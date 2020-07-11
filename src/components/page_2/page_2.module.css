@@ -13,15 +13,15 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  animation: motion 8s 4s forwards;
+  animation: motion 8s 5s forwards;
 }
 
 @keyframes motion {
   from {
-    bottom: 0;
+    transform: translateY(0);
   }
   to {
-    bottom: 40px;
+    transform: translateY(-40px);
   }
 }
 
